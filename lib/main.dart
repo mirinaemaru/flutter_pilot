@@ -10,13 +10,31 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body: Center(
-          child: Text('Hello World. My Name is mirinae.maru'),
+      title: 'First app',
+      theme: ThemeData(
+        primarySwatch: Colors.blue
+      ),
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('First app'),
+      ),
+      body: Center(
+        child: Column(
+          children: <Widget>[
+            Text('Hello'),
+            Text('Hello'),
+            Text('Hello')
+          ],
         ),
       ),
     );
