@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
-          children: <Widget>[
+          children: const <Widget>[
             Text('Hello'),
             Text('Hello'),
             Text('Hello')
