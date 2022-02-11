@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="calculator.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-    <option name="filePath" value="$PROJECT_DIR$/lib/calculator.dart" />
+  <configuration default="false" name="add_app_bar_menu_icon.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/lib/add_app_bar_menu_icon.dart" />
     <method v="2" />
   </configuration>
 </component>
